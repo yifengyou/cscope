@@ -134,7 +134,7 @@ cscope -Rbq
 * -q:生成cscope.in.out和cscope.po.out，加快搜索速度
 
 
-## cs find子命令
+## cs find子命令（关键）
 
 ```
 find : Query for a pattern            (Usage: find a|c|d|e|f|g|i|s|t name)
@@ -149,7 +149,7 @@ find : Query for a pattern            (Usage: find a|c|d|e|f|g|i|s|t name)
        t: Find this text string
 ```
 
-基本命令格式：
+vim命令行模式下使用，基本命令格式：
 
 ```
 ：cs find t: ---- 模糊搜索 指定的字符串
@@ -213,6 +213,7 @@ cs reset
 ## 参考
 
 * <http://cscope.sourceforge.net/cscope_vim_tutorial.html>
+* <http://cscope.sourceforge.net/cscope_maps.vim>
 
 
 
